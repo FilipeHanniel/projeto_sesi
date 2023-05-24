@@ -4,7 +4,7 @@ import java.time.format.DateTimeFormatter;
 
 public class MetodoSimples {
     
-    // null > não retorna nada
+    // void > não retorna nada
 
     public static void main(String[] args) {
         // Método simples "Sem parãmetros"
@@ -29,4 +29,11 @@ public class MetodoSimples {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         return dateTime.format(formatter);
     }
+
+    // Método / Função
+    // Com Retorno: é preciso especificar o tipo de retorno e utilizar a expressão return <valor>;
+    // > Retorna um valor há ser utilizado.
+
+    // Sem Retorno: o tipo de retorno é null e não precisa utilizar o return <valor>;
+    // > Apenas executa o código dentro do bloco.
 }
