@@ -13,8 +13,8 @@ public class Bank {
         Account account = new Account(10, "Filipe")
 
         System.out.println(account.getCode());
-        System.out.println(Account.getHolder());
-        sout
+        System.out.println(account.getHolder());
+        System.out.println(account.getBalance());
         sc.close();
 
     }
